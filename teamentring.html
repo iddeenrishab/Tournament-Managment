@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding team</title>
+   
+</head>
+<body>
+    
+    <style>
+        body {
+          background-image: url("images/images.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        h1{
+        font-size: 60px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        }
+        form {
+            background-color: #ffffff;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #aaaaaa;
+            opacity: 90%;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #aaaaaa;
+        }
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            color: #ffffff;
+            background-color: #333333;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        input[type="submit"]:hover {
+            background-color: #444444;
+        }
+    
+       </style>
+    <form action="php/addteam.php" method="post" class="container">
+        <h1>ADDING TEAM</h1>
+            <label for="teamname"><b>Team name</b></label><br>
+            <input type="text" placeholder="teamname" name="teamname" required><br><br>
+
+            <label for="player1"><b>player</b></label>
+            <input type="text" placeholder="name" name="player1" required>&nbsp;
+            <input type="text" placeholder="position(not mandatory)" name="player1p" ><br>
+
+            <label for="player2"><b>player</b></label>
+            <input type="text" placeholder="name" name="player2" required>&nbsp;
+            <input type="text" placeholder="position(not mandatory)" name="player2p" ><br>
+
+            <label for="player3"><b>player</b></label>
+            <input type="text" placeholder="name" name="player3" required>&nbsp;
+            <input type="text" placeholder="position(not mandatory)" name="player3p"><br>
+
+            <label for="player4"><b>player</b></label>
+            <input type="text" placeholder="name" name="player4" required>&nbsp;
+            <input type="text" placeholder="position(not mandatory)" name="player4p"><br>
+
+            <label for="player5"><b>player</b></label>
+            <input type="text" placeholder="name" name="player5" required>&nbsp;
+            <input type="text" placeholder="position(not mandatory)" name="player5p"><br>
+
+            <label for="player6"><b>player</b></label>
+            <input type="text" placeholder="name" name="player6" required>&nbsp;
+            <input type="text" placeholder="position(not mandatory)" name="player6p"><br>
+
+            <label for="player7"><b>player</b></label>
+            <input type="text" placeholder="name" name="player7" required>&nbsp;
+            <input type="text" placeholder="position(not mandatory)" name="player7p"><br>
+
+            <label for="player8"><b>player</b></label>
+            <input type="text" placeholder="name" name="player8" required>&nbsp;
+            <input type="text" placeholder="position(not mandatory)" name="player8p"><br>
+
+            <label for="player9"><b>player</b></label>
+            <input type="text" placeholder="name" name="player9" required>&nbsp;
+            <input type="text" placeholder="position(not mandatory)" name="player9p"><br>
+
+            <input type="submit" name="submit" value="addteam">
+        </form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

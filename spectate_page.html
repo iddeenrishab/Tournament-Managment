@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spectate</title>
+    <style>
+      .button-container {
+        text-align: center;
+        display: table-row;
+        display: flex;
+        flex-direction:column;
+
+        align-items: line;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* 100% of the viewport height */
+        margin: 20; /* Remove default margin */
+
+        background-image: url("images/images.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .button {
+        /* display: inline-flex; */
+        padding: 10px 20px;
+        margin: 20px;
+        background-color: #0a3f07;
+        color: #fff;
+        text-decoration: azure;
+        border: aqua;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 200px;
+        padding: 30px;
+      }
+      .button:hover {
+        background-color: #249e1e;
+        color: white;
+        box-shadow: 8px black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button-container">
+        <a href="teams.php" class="button">TEAMS</a>
+        <a href="matches.php" class="button">MATCHES</a>
+        <a href="most-goals.php" class="button">MOST GOALS</a>
+        <a href="most-assists.php" class="button">MOST ASSISTS</a>
+        <a href="point-table.php" class="button">POINT TABLE</a>
+    
+    </div>
+  </body>
+</html>

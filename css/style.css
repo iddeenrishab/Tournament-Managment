@@ -1,0 +1,125 @@
+a {
+    text-decoration: none;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background-image: url("images/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgimage {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    container-type:inline-size;
+  }
+  .menu {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .leftmenu {
+    width: 30%;
+    line-height: 100px;
+    float: left;
+  }
+  h1 {
+    text-align: center;
+    color: aliceblue;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+    opacity: 90%;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+    background-color:  #e5e5e5;
+}
+  .leftmenu h4 {
+    text-align: center;
+    padding-top:30px!important;
+    padding-left: 70px;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    font-family: "montserrat", sans-serif;
+  }
+  .rightmenu {
+    text-align:right;
+    width: 100%;
+    height: 100px;
+    right:-10%;
+  }
+  .rightmenu ul{
+    padding-right: 50px;
+  }
+  .rightmenu ul li {
+    text-align: right;
+    display: inline-block;
+    font-family: "montserrat", sans-serif;
+    list-style: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .text {
+    width: 100%;
+    margin-top: 185px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+  }
+  .text h4 {
+    font-size: 14px;
+    font-family: "open sans", sans-serif;
+  }
+  .text h1 {
+    font-size: 62px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 700px;
+    margin: 14px 0px;
+  }
+  .text h3 {
+    font-size: 15px;
+    font-family: "open sans", sans-serif;
+  }
+  .btn {
+    background-color: rgba(255, 255, 255, 0.164);
+    color: white;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    border: 3px solid white;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: white;
+    color: black;
+  }

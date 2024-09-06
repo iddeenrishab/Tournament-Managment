@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <style>
+        a {
+          text-decoration: none;
+        }
+        * {
+          margin: 0px;
+          padding: 0px;
+        }
+        body {
+          background-image: url("images/images.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .bgimage {
+          background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+          background-size: 100%;
+          width: 100%;
+          height: 100vh;
+          container-type:inline-size;
+        }
+        .menu {
+          width: 100%;
+          height: 100px;
+          background-color: rgba(0, 0, 0, 0.1);
+        }
+        .leftmenu {
+          width: 20%;
+          line-height: 100px;
+          float: left;
+        }
+        .leftmenu h4 {
+          padding-left: 70px;
+          font-weight: bold;
+          color: white;
+          font-size: 22px;
+          font-family: "montserrat", sans-serif;
+        }
+        .rightmenu {
+          text-align:right;
+          width: 100%;
+          height: 100px;
+          right:-10%;
+        }
+        .rightmenu ul{
+          padding-right: 50px;
+        }
+        .rightmenu ul li {
+          text-align: right;
+          display: inline-block;
+          font-family: "montserrat", sans-serif;
+          list-style: none;
+          font-size: 15px;
+          color: #ffffff;
+          font-weight: bold;
+          line-height: 100px;
+          margin-left: 40px;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+        .text {
+          width: 100%;
+          margin-top: 185px;
+          text-transform: uppercase;
+          text-align: center;
+          color: white;
+        }
+        .text h4 {
+          font-size: 14px;
+          font-family: "open sans", sans-serif;
+        }
+        .text h1 {
+          font-size: 62px;
+          font-family: "montserrat", sans-serif;
+          font-weight: 700px;
+          margin: 14px 0px;
+        }
+        .text h3 {
+          font-size: 15px;
+          font-family: "open sans", sans-serif;
+        }
+        .btn {
+          background-color: rgba(255, 255, 255, 0.164);
+          color: white;
+          font-family: "montserrat", sans-serif;
+          border: none;
+          font-size: 15px;
+          font-weight: bold;
+          text-transform: uppercase;
+          line-height: 40px;
+          width: 150px;
+          margin-top: 25px;
+          border: 3px solid white;
+          cursor: pointer;
+        }
+        .btn:hover {
+          background-color: white;
+          color: black;
+        }
+        .nav-ln:hover {
+          color: #ffffff;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="bgimage">
+      <div class="menu">
+        <div class="leftmenu">
+          <h4>SMART BOYS</h4>
+        </div>
+
+        <div class="rightmenu">
+          <ul>
+            <li id="firstlist"></li>
+            <li><a href="rules.html" class="nav-ln">RULES</a></li>
+
+            <li><a href="aboutus.html" class="nav-ln">About Us</a></li>
+            <li><a href="contact.html" class="nav-ln" >Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text">
+        <h4>ONE LOVE</h4>
+        <h1>FOOTBALL..ITS ALL..</h1>
+        <h3>WELCOME TO THE WORLD OF FOOTBALL</h3>
+        <button class="btn" onclick="goToEditPage()">EDIT</button>
+        <button class="btn" onclick="goToSpectatePage()">SPECTATE</button>
+
+        <script>
+            function goToEditPage() {
+                window.location.href = 'login.html';
+            }
+
+            function goToSpectatePage() {
+                window.location.href = 'spectate_page.html';
+            }
+        </script>
+        
+      </div>
+    </div>
+  </body>
+</html>
